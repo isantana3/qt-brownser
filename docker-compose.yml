@@ -2,7 +2,7 @@ version: '1'
 services:
   QT-browser:
     build: .
-    image: isantana3/raspibian-qt-browser
+    image: isantana3/raspibian-raspibian-qt-browser
     container_name: QT-browser 
     command: python3 -u main.py
     volumes:
